@@ -106,10 +106,10 @@ PINODE head = NULL;				// global pointer
 
 //######################################################################################
 //
-//	Function Name	: 	man
+//	Function Name		: 	man
 //	Input			: 	char *
 //	Output			: 	None
-//	Description 	: 	It Display The Description For Each Commands
+//	Description 		: 	It Display The Description For Each Commands
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -202,10 +202,10 @@ void man(char *name)
 
 //######################################################################################
 //
-//	Function Name	: 	DisplayHelp
+//	Function Name		: 	DisplayHelp
 //	Input			: 	None
 //	Output			: 	None
-//	Description 	: 	It Display All List / Operations About This Application
+//	Description 		: 	It Display All List / Operations About This Application
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -229,10 +229,10 @@ void DisplayHelp()
 
 //######################################################################################
 //
-//	Function Name	: 	GetFDFromName
+//	Function Name		: 	GetFDFromName
 //	Input			: 	char*
 //	Output			: 	Integer
-//	Description 	: 	Get File Descriptor Value
+//	Description 		: 	Get File Descriptor Value
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -266,10 +266,10 @@ int GetFDFromName(char *name)
 
 //######################################################################################
 //
-//	Function Name	: 	Get_Inode
+//	Function Name		: 	Get_Inode
 //	Input			: 	char*
 //	Output			: 	PINODE
-//	Description 	: 	Return Inode Value Of File
+//	Description 		: 	Return Inode Value Of File
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -298,10 +298,10 @@ PINODE Get_Inode(char * name)
 
 //######################################################################################
 //
-//	Function Name	: 	CreateDILB
+//	Function Name		: 	CreateDILB
 //	Input			: 	None
 //	Output			: 	None
-//	Description 	: 	It Creates The DILB When Program Starts 
+//	Description 		: 	It Creates The DILB When Program Starts 
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -340,10 +340,10 @@ void CreateDILB()
 
 //######################################################################################
 //
-//	Function Name	: 	InitialiseSuperBlock
+//	Function Name		: 	InitialiseSuperBlock
 //	Input			: 	None
 //	Output			: 	None
-//	Description 	: 	Initialize Inode Values 
+//	Description 		: 	Initialize Inode Values 
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -364,10 +364,10 @@ void InitialiseSuperBlock()
 
 //######################################################################################
 //
-//	Function Name	: 	CreateFile
+//	Function Name		: 	CreateFile
 //	Input			: 	char*, Integer
 //	Output			: 	None
-//	Description 	: 	Create New Files
+//	Description 		: 	Create New Files
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -443,10 +443,10 @@ int CreateFile(char *name,int permission)
 
 //######################################################################################
 //
-//	Function Name	: 	rm_File
+//	Function Name		: 	rm_File
 //	Input			: 	char*
 //	Output			: 	Integer
-//	Description 	: 	Remove Created Files
+//	Description 		: 	Remove Created Files
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -484,10 +484,10 @@ int rm_File(char * name)
 
 //######################################################################################
 //
-//	Function Name	: 	ReadFile
+//	Function Name		: 	ReadFile
 //	Input			: 	Integer, char*, Integer
 //	Output			: 	Integer
-//	Description 	: 	Read Data From File
+//	Description 		: 	Read Data From File
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -541,10 +541,10 @@ int ReadFile(int fd, char *arr, int isize)
 
 //######################################################################################
 //
-//	Function Name	: 	WriteFile
+//	Function Name		: 	WriteFile
 //	Input			: 	Integer, char*, Integer
 //	Output			: 	Integer
-//	Description 	: 	Write Data Into The File
+//	Description 		: 	Write Data Into The File
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -588,10 +588,10 @@ int WriteFile(int fd, char *arr, int isize)
 
 //######################################################################################
 //
-//	Function Name	: 	OpenFile
+//	Function Name		: 	OpenFile
 //	Input			: 	char*, Integer
 //	Output			: 	Integer
-//	Description 	: 	Open An Existing File
+//	Description 		: 	Open An Existing File
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -663,10 +663,10 @@ int OpenFile(char *name, int mode)
 
 //######################################################################################
 //
-//	Function Name	: 	CloseFileByName
+//	Function Name		: 	CloseFileByName
 //	Input			: 	Integer
 //	Output			: 	None
-//	Description 	: 	Close Existing File By By Its File Descriptor
+//	Description 		: 	Close Existing File By By Its File Descriptor
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -682,10 +682,10 @@ void CloseFileByName(int fd)
 
 //######################################################################################
 //
-//	Function Name	: 	CloseFileByName
+//	Function Name		: 	CloseFileByName
 //	Input			: 	Char
 //	Output			: 	Integer
-//	Description 	: 	Close Existing File By Its Name
+//	Description 		: 	Close Existing File By Its Name
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -710,10 +710,10 @@ int CloseFileByName(char *name)
 
 //######################################################################################
 //
-//	Function Name	: 	CloseAllFile
+//	Function Name		: 	CloseAllFile
 //	Input			: 	None
 //	Output			: 	None
-//	Description 	: 	Close All Existing Files
+//	Description 		: 	Close All Existing Files
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -738,10 +738,10 @@ void CloseAllFile()
 
 //######################################################################################
 //
-//	Function Name	: 	LseekFile
+//	Function Name		: 	LseekFile
 //	Input			: 	Integer, Integer, Integer
 //	Output			: 	Integer
-//	Description 	: 	Write Data Into The File From Perticular Position
+//	Description 		: 	Write Data Into The File From Perticular Position
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -867,10 +867,10 @@ int LseekFile(int fd, int size, int from)
 
 //######################################################################################
 //
-//	Function Name	: 	ls_file
+//	Function Name		: 	ls_file
 //	Input			: 	None
 //	Output			: 	None
-//	Description 	: 	List Out All Existing Files Name
+//	Description 		: 	List Out All Existing Files Name
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -904,10 +904,10 @@ void ls_file()
 
 //######################################################################################
 //
-//	Function Name	: 	ls_file
+//	Function Name		: 	ls_file
 //	Input			: 	Integer
 //	Output			: 	Integer
-//	Description 	: 	Display Statistical Information Of The File By Using File Descriptor
+//	Description 		: 	Display Statistical Information Of The File By Using File Descriptor
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -961,10 +961,10 @@ int fstat_file(int fd)
 
 //######################################################################################
 //
-//	Function Name	: 	stat_file
+//	Function Name		: 	stat_file
 //	Input			: 	Char*
 //	Output			: 	Integer
-//	Description 	: 	Display Statistical Information Of The File By Using File Name
+//	Description 		: 	Display Statistical Information Of The File By Using File Name
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -1026,10 +1026,10 @@ int stat_file(char *name)
 
 //######################################################################################
 //
-//	Function Name	: 	truncate_File
+//	Function Name		: 	truncate_File
 //	Input			: 	Char*
 //	Output			: 	Integer
-//	Description 	: 	Delete All Data From The File
+//	Description 		: 	Delete All Data From The File
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
@@ -1053,10 +1053,10 @@ int truncate_File(char *name)
 
 //######################################################################################
 //
-//	Function Name	: 	main
+//	Function Name		: 	main
 //	Input			: 	None
 //	Output			: 	Integer
-//	Description 	: 	Entry Point Function
+//	Description 		: 	Entry Point Function
 //	Author			: 	Prasad Dangare
 //	Date			:	28 June 2021
 //
