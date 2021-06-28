@@ -2,10 +2,10 @@
 
 This Project Is Used To Emulate All Functionalities Provided By File Systems.
 
-> Platform Reuired          : Windows Platform Or Linux Distributions.
-> Architectural Requirement : INTEL 32 Bit Processor Or Higher.
-> User Interface            : Command Line Interface.
-> Technology Used           : System Programming Using C.
+1) Platform Required          : Windows Platform Or Linux Distributions.
+2) Architectural Requirement  : INTEL 32 Bit Processor Or Higher.
+3) User Interface             : Command Line Interface.
+4) Technology Used            : System Programming Using C.
 
 # About Customized Virtual File System #
 
