@@ -1,3 +1,8 @@
+# License & Copyright
+
+### Copyright (c) 2021 Prasad_Dangare
+### Licensed Under The  [MIT License](https://github.com/PRASAD-DANGARE/Virtual_File_System/blob/main/LICENSE)
+#
 # CUSTOMIZED VIRTUAL FILE SYSTEM
 
 ### PLATFORM REQUIRED :   
