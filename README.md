@@ -1,9 +1,39 @@
-# License & Copyright
+<div align="center">
+    <h1>License & Copyright</h1>
+    <!--<i>A collective list of free APIs for use in software and web development</i>-->
+</div>
 
-### Copyright (c) 2021 Prasad_Dangare
-### Licensed Under The  [MIT License](https://github.com/PRASAD-DANGARE/Virtual_File_System/blob/main/LICENSE)
+![](https://i.imgur.com/waxVImv.png)
+
+<div align="center">
+    <sup>More Info</sup>
+    <br />
+  <sup>Copyright (c) 2021 Prasad_Dangare</sup>
+  
+  Licensed Under The  [MIT License](https://github.com/PRASAD-DANGARE/Virtual_File_System/blob/main/LICENSE)
+  
+  [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/PRASAD-DANGARE/Virtual_File_System/blob/main/LICENSE)
+  ![GitHub language count](https://img.shields.io/github/languages/count/PRASAD-DANGARE/Virtual_File_System?color=g&label=Languages)
+  ![GitHub top language](https://img.shields.io/github/languages/top/PRASAD-DANGARE/Virtual_File_System?color=9cf)
+  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/PRASAD-DANGARE/Virtual_File_System)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/PRASAD-DANGARE/Virtual_File_System)
+  ![Lines of code](https://img.shields.io/tokei/lines/github/PRASAD-DANGARE/Virtual_File_System?color=g&label=No%20Of%20Lines)
+  ![GitHub contributors](https://img.shields.io/github/contributors/PRASAD-DANGARE/Virtual_File_System?color=red)
+  ![GitHub User's stars](https://img.shields.io/github/stars/PRASAD-DANGARE?color=yellow)
+  [![Drone](https://drone.grafana.net/api/badges/grafana/grafana/status.svg)](https://github.com/PRASAD-DANGARE/Virtual_File_System/blob/main/Virtual_File_System.cpp)
+  ![GitHub branch checks state](https://img.shields.io/github/checks-status/PRASAD-DANGARE/Virtual_File_System/main?color=r)
+  ![GitHub all releases](https://img.shields.io/github/downloads/PRASAD-DANGARE/Virtual_File_System/total)
+  ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/PRASAD-DANGARE/Virtual_File_System?color=purple)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/PRASAD-DANGARE/Virtual_File_System?color=yellow)
+
+</div>
+
+<!--censed Under The  [MIT License](https://github.com/PRASAD-DANGARE/Virtual_File_System/blob/main/LICENSE)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/PRASAD-DANGARE/Virtual_File_System/blob/main/LICENSE)
-#
+[![Drone](https://drone.grafana.net/api/badges/grafana/grafana/status.svg)](https://github.com/PRASAD-DANGARE/Virtual_File_System/blob/main/Virtual_File_System.cpp)-->
+
+![](https://i.imgur.com/waxVImv.png)
+
 # CUSTOMIZED VIRTUAL FILE SYSTEM
 
 ### PLATFORM REQUIRED :   
